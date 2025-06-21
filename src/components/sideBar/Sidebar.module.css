@@ -39,11 +39,11 @@
 }
 
 .active {
-    background-color:#F14635; /* активный - красный */
+    background-color:#F14635;
 }
 
 .active img {
-    filter: brightness(1.3); /* подсветка иконки */
+
     background-color: #F14635;
 
 }

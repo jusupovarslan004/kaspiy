@@ -1,28 +1,14 @@
 .layout {
     display: flex;
     flex-direction: column;
-    height: 100vh;
 }
 
-/* Блок под header, содержит сайдбар и контент */
 .body {
     display: flex;
     flex: 1; /* занимает все пространство снизу header */
     overflow: hidden;
 }
 
-/* Сайдбар */
-.sidebar {
-    width: 250px;
-    background-color: #1f2937;
-    color: white;
-    padding: 20px;
-    box-sizing: border-box;
-    /* если ты хочешь фиксировать сайдбар, убери position: fixed */
-    /* position: fixed; top: 0; left: 0; height: 100vh;  — НЕ НУЖЕН */
-}
-
-/* Контент справа от сайдбара */
 .content {
     flex: 1;
     padding: 20px;

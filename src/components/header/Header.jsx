@@ -10,7 +10,9 @@ import chel from '../../assets/icnonsHeader/chel.svg'
 import message from '../../assets/icnonsHeader/message.svg'
 
 const menuItems = [
+
     { key: 'kaspi', label: 'Kaspi', icon: kaspiIcon },
+    { key: 'kaspiAnal', label: 'Аналитика Kaspi' , icon: kaspiIcon},
     { key: 'halyk', label: 'Halyk', icon: halykIcon },
     { key: 'jusan', label: 'Jusan', icon: jusanIcon },
     { key: 'forte', label: 'Forte', icon: forteIcon },
@@ -22,16 +24,8 @@ const Header = () => {
     return (
         <header className={styles.header}>
             <div className={styles.left}>
-                <img src={logoIcon} alt="Logo" className={styles.logo} />
 
-
-                <button
-                    className={`${styles.menuButton} ${activeMenu === 'kaspi' ? styles.active : ''}`}
-                    onClick={() => setActiveMenu('kaspi')}
-                >
-                    <img src={kaspiIcon} alt="Kaspi" className={styles.menuIcon} />
-                    Kaspi ▾
-                </button>
+                <img src={logoIcon} alt="Logo" className={styles.logo}/>
             </div>
 
             <nav className={styles.nav}>
@@ -42,11 +36,13 @@ const Header = () => {
                             className={`${styles.menuItem} ${activeMenu === key ? styles.activeText : ''}`}
                             onClick={() => setActiveMenu(key)}
                         >
-                            <img src={icon} alt={label} className={styles.menuIcon} />
+                            <div className={styles.iconCon}>
+                                <img src={icon} alt={label} className={styles.menuIcon}/>
+                            </div>
                             <span>{label}</span>
                             <span className={styles.arrow}>▾</span>
                         </li>
-                    ))}
+                        ))}
                     <li className={styles.menuItem}>Помощь</li>
                 </ul>
             </nav>

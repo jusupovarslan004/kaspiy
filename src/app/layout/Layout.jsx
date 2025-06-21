@@ -7,17 +7,19 @@ import Container from "../../components/container/Container.jsx";
 
 const Layout = () => {
     return (
-        <Container>
-            <div className={styles.layout}>
-                <Header />
-                <div className={styles.body}>
-                    <Sidebar />
-                    <main className={styles.content}>
-                        <Outlet />
-                    </main>
+        <div className={styles.wrapper}>
+            <Header />
+            <Container>
+                <div className={styles.layout}>
+                    <div className={styles.body}>
+                        <Sidebar />
+                        <main className={styles.content}>
+                            <Outlet />
+                        </main>
+                    </div>
                 </div>
-            </div>
-        </Container>
+            </Container>
+        </div>
     );
 };
 

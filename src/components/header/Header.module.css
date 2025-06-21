@@ -7,7 +7,6 @@
 }
 
 .left {
-    height: 62px;
     display: flex;
     align-items: center;
     gap: 12px;
@@ -30,7 +29,7 @@
 .menuButton {
     display: flex;
     align-items: center;
-    gap: 6px;
+    gap: px;
     background-color: #f5fafd;
     border: none;
     padding: 6px 14px;
@@ -55,11 +54,7 @@
     height: 18px;
 }
 
-.nav {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-}
+
 
 .menu {
     list-style: none;
@@ -76,6 +71,7 @@
     cursor: pointer;
     color: #555;
     font-size: 14px;
+    padding: 17px 25px ;
 }
 
 .menuItem:hover {
@@ -84,7 +80,15 @@
 
 .activeText {
     font-weight: 600;
-    color: #e53935;
+    color: rgba(255, 255, 255, 1);
+    background: linear-gradient(to right, rgba(241, 70, 53, 1), rgba(255, 99, 83, 1));
+    border-radius: 10px;
+}
+
+.activeText .iconCon{
+    background-color: #E4EBF0;
+    padding: 3px;
+    border-radius: 5px;
 }
 
 .arrow {
