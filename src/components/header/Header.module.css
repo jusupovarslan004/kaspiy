@@ -64,32 +64,41 @@
     margin: 0;
 }
 
-.menuItem {
+.menuItem , .menuItem2 {
     display: flex;
     align-items: center;
     gap: 6px;
     cursor: pointer;
     color: #555;
-    font-size: 14px;
     padding: 17px 25px ;
+    font-size: 16px;
 }
 
 .menuItem:hover {
-    opacity: 0.7;
-}
 
-.activeText {
-    font-weight: 600;
     color: rgba(255, 255, 255, 1);
     background: linear-gradient(to right, rgba(241, 70, 53, 1), rgba(255, 99, 83, 1));
     border-radius: 10px;
 }
 
-.activeText .iconCon{
-    background-color: #E4EBF0;
-    padding: 3px;
-    border-radius: 5px;
+.activeText {
+
+    color: rgba(255, 255, 255, 1);
+    background: linear-gradient(to right, rgba(241, 70, 53, 1), rgba(255, 99, 83, 1));
+    border-radius: 10px;
+
 }
+
+.iconCon{
+    background-color: #E4EBF0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    height: 28px;
+    width: 28px;
+}
+
 
 .arrow {
     font-size: 12px;
@@ -98,7 +107,20 @@
 .right {
     display: flex;
     gap: 16px;
+
 }
+
+.right button{
+    height: 62px;
+    width: 62px;
+    background-color: rgba(228, 235, 240, 1) ;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
 
 .icon {
     font-size: 18px;

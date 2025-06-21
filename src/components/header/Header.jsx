@@ -43,7 +43,7 @@ const Header = () => {
                             <span className={styles.arrow}>▾</span>
                         </li>
                         ))}
-                    <li className={styles.menuItem}>Помощь</li>
+                    <li className={styles.menuItem2}>Помощь</li>
                 </ul>
             </nav>
 
