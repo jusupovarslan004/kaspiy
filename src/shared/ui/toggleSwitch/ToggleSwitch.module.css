@@ -1,0 +1,25 @@
+.switch {
+    width: 54px;
+    height: 27px;
+    background-color: #ccc;
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.on {
+    background-color: #4cd964;
+    justify-content: flex-end;
+}
+
+.circle {
+    width: 19px;
+    height: 19px;
+    background-color: white;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
