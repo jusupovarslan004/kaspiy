@@ -1,6 +1,7 @@
 import styles from './ToggleSwitch.module.css';
 
 const ToggleSwitch = ({ isOn, onToggle }) => {
+
     return (
         <div
             className={`${styles.switch} ${isOn ? styles.on : ''}`}

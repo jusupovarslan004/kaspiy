@@ -1,0 +1,47 @@
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h1{
+        color: rgba(65, 70, 83, 1);
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 100%;
+    }
+}
+
+.leftPart{
+    display: flex;
+    align-items: center;
+    p{
+        color: rgba(135, 159, 173, 1);
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 100%;
+    }
+
+}
+
+
+
+table{
+    border-collapse: collapse;
+    position: relative;
+
+}
+
+th{
+    background-color: rgba(98, 104, 119, 1);
+    color: white;
+    height: 38px;
+    padding: 8px 10px;
+    white-space: nowrap;
+}
+
+th , td{
+    border: 1px rgba(212, 219, 236, 1) solid;
+    padding: 8px 10px;
+    white-space: nowrap;
+}
+
+

@@ -1,9 +1,12 @@
 import React from 'react';
+import EditBar from "../../components/editBar/EditBar.jsx";
+import HeaderSection from "../../components/headerSection/HeaderSection.jsx";
 
 const ProductManagement = () => {
     return (
         <div>
-            <h1>ProductManagement</h1>
+            <HeaderSection props={"Управление товарами:"}/>
+            <EditBar/>
         </div>
     );
 };

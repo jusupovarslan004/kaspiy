@@ -1,9 +1,10 @@
 import React from 'react';
+import HeaderSection from "../../components/headerSection/HeaderSection.jsx";
 
 const WarehousesShops = () => {
     return (
         <div>
-            <h1>WarehousesShops</h1>
+            <HeaderSection props="Склады и магазины"/>
         </div>
     );
 };
