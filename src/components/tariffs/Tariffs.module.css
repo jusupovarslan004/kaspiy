@@ -1,0 +1,114 @@
+.tariffsWrapper {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px 0;
+}
+
+.tariffCard {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+    padding: 32px 24px 24px 24px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.tariffTitle {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #2d3a4a;
+}
+
+.tariffPrice {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ff4d30;
+    margin-bottom: 16px;
+}
+
+.tariffPeriod {
+    font-size: 14px;
+    color: #8a99b3;
+    font-weight: 400;
+}
+
+.tariffFeatures {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 16px 0;
+}
+
+.tariffFeatures li {
+    font-size: 15px;
+    color: #2d3a4a;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.disabled {
+    color: #b0b8c1;
+    text-decoration: line-through;
+}
+
+.tariffAddonsTitle {
+    font-size: 14px;
+    color: #8a99b3;
+    margin-bottom: 4px;
+    font-weight: 500;
+}
+
+.tariffAddons {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 16px 0;
+}
+
+.tariffAddons li {
+    font-size: 14px;
+    color: #2d3a4a;
+    margin-bottom: 4px;
+}
+
+.activateBtn {
+    background: #ff4d30;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 0;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: auto;
+    transition: background 0.2s;
+}
+
+.activateBtn:hover {
+    background: #e63c1a;
+}
+
+.badgePopular {
+    background: #ffe082;
+    color: #8a6d1a;
+    font-size: 12px;
+    border-radius: 6px;
+    padding: 2px 8px;
+    margin-left: 8px;
+    font-weight: 600;
+}
+
+.badgePro {
+    background: #e0f7e9;
+    color: #1a7f37;
+    font-size: 12px;
+    border-radius: 6px;
+    padding: 2px 8px;
+    margin-left: 8px;
+    font-weight: 600;
+}
